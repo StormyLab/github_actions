@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: Push a file to our repository
         run: |
+          pip install pytest
           pwd
           ls -a 
           git init
